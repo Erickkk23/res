@@ -26,17 +26,18 @@ DO_TEST_UTIL  = {"Y": {0: 100, 1: 0}}
 # -----------------------------------------------------------------------------------------
 ADBOT_DATA  = pd.read_csv("../dat/adbot-data.csv")
 # TODO: Correct the Adbot BN Structure here
-ADBOT_STRUC = [
-    ("Ad1", "S"),
-    ("Ad2", "S"),
-    ("P", "S"),
-    ("A", "S"),
-    ("G", "S"),
-    ("I", "S"),
-    ("T", "S"),
-    ("F", "S"),
-    ("H", "S"),
-]
+ADBOT_STRUC = [("H","I"),
+               ("A","H"),
+               ("A","F"),
+               ("A","T"),
+               ("Ad2","F"),
+               ("F","S"),\
+               ("Ad1","S"),
+               ("G","S"),
+               ("Ad1","G"),
+               ("P","G"),
+               ("P","T")]
+
 
 
 # TODO: Correct the Adbot decision nodes / vars here
